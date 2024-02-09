@@ -3,7 +3,337 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    
+    <title>Test - 3</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="background">
+        <div class="circle"></div>
+        <div class="circle-sml"></div>
+
+        <div class="square"></div>
+        <div class="square-sml-1"></div>
+        <div class="square-sml-2"></div>
+        <div class="square-sml-3"></div>
+        <div class="square-fill-1"></div>
+        <div class="square-fill-2"></div>
+      </div>
+
+      <main class="main-page">
+        <header class="emma-dash">
+          <div class="mountain-back"></div>
+          <div class="nav">
+              <button class=" brd-none back-none SKS">
+                <img src="images/chat.svg" alt="Chat" class="chat"> SKS Funding
+              </button>
+              <button class="brd-none need-help trans--0-5">Need Help</button>
+              <button class=" brd-none back-none">
+                  <img src="images/notification-bell.svg" alt="Bell" class="bell trans--0-5"/>
+              </button>
+              <button class="emma-img-sml brd-none"><img src="images/main-img.jpg" alt="Emma-Img"  class="emma-img-sml trans--0-5"/></button>
+          </div>
+            <div class="emma-profile">
+              <div class="img-text">
+                <img src="images/main-img.jpg" alt="Emma-Img" class="emma-img" />
+                <div class="dtl-text">
+                  <span>Hi, Emma good morning ✋</span>
+                  <div class="emma-details">
+                    <span class="dtl-type">Email - </span>akp.emma1231@gmail.com</br>
+                    <span class="dtl-type">Phone - </span>+91-9997584843</br>
+                    <span class="dtl-type">Address - </span>
+                      Po Box 2103 Linden, NJ 07036 (USA)</br>
+                    <span class="dtl-type">Plan - </span>
+                      $100 </br>
+                    <span class="dtl-type">Joined - </span>
+                      Mon 22nd Feb 2019
+                  </div>
+                </div>
+              </div>
+              <div class="pfl-status">
+                <div class="pi-chart">
+                  <svg class="chart">
+                    <path class="chart-bg"
+                      d="M30.5 3.5
+                        a 27 27 0 0 0 0 54
+                        a 27 27 0 0 0 0 -54"
+                    />
+                    <path class="chart-stroke"
+                      d="M30.5 3.5
+                        a 27 27 0 0 0 0 54
+                        a 27 27 0 0 0 0 -54"
+                        fill="none"
+                        stroke="#FCA424"
+                        stroke-width="3"
+                        stroke-dasharray="75 0 51.5 50"
+                        />
+                  </svg>
+                  <div class="chart-circle">75%</div>
+                </div>
+
+                <div class="pfl-status-text">
+                  <span class="Completion">Profile Completion</span>
+                  <span class="please">Please complete profile</span>
+                  <button class="complete trans--0-5">complete</button>
+                </div>
+              </div>
+              <div class="camera">
+                <img src="images/camera.svg" alt="camera" class="camera-img">
+              </div>
+            </div>
+        </header>
+
+        <aside class="about">
+          <div class="about-ver-line"></div>
+          <div class="about-family-me">
+            <span>about my family</span>
+            <ion-icon name="ellipsis-horizontal" class="dots"></ion-icon>
+          </div>
+          <div class="about-hor-line mar-top"></div>
+          <div class="mar-top">
+            <span class="about-text">covered persons</span><br>
+            <img src="images/covered-person-1.jpg" alt="person-1" class="about-img">
+            <img src="images/covered-person-2.jpg" alt="person-2" class="about-img">
+          </div>
+          <div class="mar-top">
+            <span class="about-text">banificiary persons</span><br>
+            <img src="images/beneficiary-person-1.jpg" alt="person-1" class="about-img">
+            <img src="images/beneficiary-person-2.jpg" alt="person-2" class="about-img">
+            <img src="images/dash-img-1.jpg" alt="person-2" class="about-img">
+          </div>
+          <div class="mar-top">
+            <span class="about-text">emergency persons</span><br>
+            <img src="images/emergency-person-1.jpg" alt="person-1" class="about-img">
+            <img src="images/emergency-person-2.jpg" alt="person-2" class="about-img">
+            <img src="images/emergency-person-3.jpg" alt="person-3" class="about-img">
+            <img src="images/main-img.jpg" alt="person-3" class="about-img">
+          </div>
+          <div class="about-me">
+            <div class="about-family-me">
+              <span>about me</span>
+              <ion-icon name="ellipsis-horizontal" class="dots"></ion-icon>
+            </div>
+            <div class="about-hor-line mar-top"></div>
+            <div class="emma-details-2 mar-top">
+              <div class="me-line">
+                <span class="about-dtl-type">Email - </span></br>akp.emma1231@gmail.com</br>
+              </div>
+              <div class="mar-top">
+                <span class="about-dtl-type">Phone - </span></br>+91-9997584843</br>
+              </div>
+              <div class="mar-top">
+                <span class="about-dtl-type">Address - </span></br>
+                Po Box 2103 Linden, NJ 07036 (USA)</br>
+              </div>
+              <div class="mar-top">
+                <span class="about-dtl-type">Plan - </span></br>
+                $100 </br>
+              </div>
+              <div class="mar-top">
+                <span class="about-dtl-type">Joined - </span></br>
+                Mon 22nd Feb 2019
+              </div>
+            </div>
+          </div>
+        </aside>
+        <div class="pages-names">
+          <ul class="pages-list">
+            <li class="dash"><strong><ion-icon name="home"></ion-icon> dashboard</strong></li>
+            <li class="pages-name">new claims</li>
+            <li  class="pages-name">completed claims</li>
+            <li class="pages-name">past claims</li>
+            <li class="pages-name">member</li>
+            <li class="my pages-name">my claims</li>
+            <li>
+              <button class="claim trans--0-5">
+                <img src="images/money.svg" alt="money" class="money">
+                claim
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="center-container">
+        <div class="three-box">
+          <div class="box-1">
+            <span class="number">
+              23
+            </span>
+            <div class="hor-line"></div>
+            <div class="box-text-img">
+              <span class="box-text">new claims</span>
+              <div class="box-imgs">
+                <img src="images/beneficiary-person-1.jpg" alt="person" class="box-img">
+                <img src="images/dash-img-1.jpg" alt="person" class="box-img">
+                <img src="images/emergency-person-3.jpg" alt="person" class="box-img">
+                <div class="more-32">
+                  <img class="box-img more-img" src="images/men.jpg" alt="men">
+                  <span>+32</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box-1">
+            <span class="number">
+              76
+            </span>
+            <div class="hor-line"></div>
+            <div class="box-text-img">
+              <span class="box-text">new members</span>
+              <div class="box-imgs">
+                <img src="images/covered-person-1.jpg" alt="person" class="box-img">
+                <img src="images/women-1.jpg" alt="person" class="box-img">
+                <img src="images/women-2.jpg" alt="person" class="box-img">
+                <div class="more-32">
+                  <img class="box-img more-img" src="images/men.jpg" alt="men">
+                  <span>+32</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box-1">
+            <span class="number">
+              102
+            </span>
+            <div class="hor-line"></div>
+            <div class="box-text-img">
+              <span class="box-text">total claims</span>
+              <div class="box-imgs">
+                <img src="images/beneficiary-person-2.jpg" alt="person" class="box-img">
+                <img src="images/women-3.jpg" alt="person" class="box-img">
+                <img src="images/covered-person-2.jpg" alt="person" class="box-img">
+                <div class="more-32">
+                  <img class="box-img more-img" src="images/men.jpg" alt="men">
+                  <span>+32</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="other-pfl-act">
+          <div class="other-pfl">
+          <div class="pfl">
+            <img src="images/dash-img-1.jpg" alt="person" class="dash-img">
+            <div class="oth-pfl-text">
+              <span>amelia kimani</span>
+              <div class="pfl-sml-text mar-top">
+                <div class="sml-text">
+                  <img width="14" height="14" src="https://img.icons8.com/windows/32/calendar.png" alt="calendar" class="pfl-icon"/>
+                  <span> Filed</span>
+                  - Thu, Jul 10, 2018 7:30  PM EDT<br>
+                </div>
+                <div class="sml-text">
+                  <img width="14" height="14" src="https://img.icons8.com/windows/32/overtime.png" alt="overtime" class="pfl-icon"/>
+                  <span> Due</span>
+                  - wed, Jul 23, 2019 12:30  PM<br>
+                </div>
+                 <div class="sml-text">
+                 <img width="14" height="14" src="https://img.icons8.com/ios/50/marker--v1.png" alt="marker--v1" class="pfl-icon"/>
+                 <span>Address</span>
+                 - Hillside Rd, Hiranandani...
+                </div>
+              </div>
+            </div>
+            <button class="pay trans--0-5"><img src="images/money.svg" alt="money" class="money"> PAY</button>
+          </div>
+          <div class="pfl">
+            <img src="images/dash-img-2.jpg" alt="person" class="dash-img">
+            <div class="oth-pfl-text">
+              <span>genevieve juma</span>
+              <div class="pfl-sml-text mar-top">
+                <div class="sml-text">
+                <img width="14" height="14" src="https://img.icons8.com/windows/32/calendar.png" alt="calendar" class="pfl-icon"/>
+                <span> Filed</span>
+                 - Thu, Jul 10, 2018 7:30  PM EDT<br>
+                </div>
+                <div class="sml-text">
+                <img width="14" height="14" src="https://img.icons8.com/windows/32/overtime.png" alt="overtime" class="pfl-icon"/>
+                <span> Due</span>
+                 - wed, Jul 23, 2019 12:30  PM<br>
+                </div>
+                 <div class="sml-text">
+                 <img width="14" height="14" src="https://img.icons8.com/ios/50/marker--v1.png" alt="marker--v1" class="pfl-icon"/>
+                 <span>Address</span>
+                 - Hillside Rd, Hiranandani...
+                </div>
+              </div>
+            </div>
+            <button class="pay trans--0-5"><img src="images/money.svg" alt="money" class="money"> PAY</button>
+          </div>
+          <div class="pfl">
+            <img src="images/dash-img-3.jpg" alt="person" class="dash-img">
+            <div class="oth-pfl-text">
+              <span>theodore wachira</span>
+              <div class="pfl-sml-text mar-top">
+                <div class="sml-text">
+                <img width="14" height="14" src="https://img.icons8.com/windows/32/calendar.png" alt="calendar" class="pfl-icon"/>
+                <span> Filed</span>
+                 - Thu, Jul 10, 2018 7:30  PM EDT<br>
+                </div>
+                <div class="sml-text">
+                <img width="14" height="14" src="https://img.icons8.com/windows/32/overtime.png" alt="overtime" class="pfl-icon"/>
+                <span> Due</span>
+                 - wed, Jul 23, 2019 12:30  PM<br>
+                </div>
+                 <div class="sml-text">
+                 <img width="14" height="14" src="https://img.icons8.com/ios/50/marker--v1.png" alt="marker--v1" class="pfl-icon"/>
+                 <span>Address</span>
+                 - Hillside Rd, Hiranandani...
+                </div>
+              </div>
+            </div>
+            <button class="pay trans--0-5"><img src="images/money.svg" alt="money" class="money"> PAY</button>
+          </div>
+        </div>
+        </div>
+        <div class="act">
+          <span class="activity">Activity</span>
+          <div class="act-hor-line mar-top"></div>
+          <div class="act-hor-line-2"></div>
+          <div class="act-ver-line">
+            <div class="act-circle-1 act-circles">
+              <div class="act-sml-circle-1 act-sml-circle"></div>
+            </div>
+            <div class="act-circle-2 act-circles">
+              <div class="act-sml-circle-2 act-sml-circle"></div>
+            </div>
+            <div class="act-circle-3 act-circles">
+              <div class="act-sml-circle-3 act-sml-circle"></div>
+            </div>
+            <div class="act-circle-4 act-circles">
+              <div class="act-sml-circle-1 act-sml-circle"></div>
+            </div>
+          </div>
+          <ul class="act-list">
+            <li class="list-head">Claimed $2000<br></li>
+              <ld class="list-text mar-top">23 members are got claimed in washington DC <br></ld>
+              <li class="list-time">05:40pm</li>
+           
+            <li class="list-head">102 New Members<br></li>
+              <ld class="list-text mar-top">We have 102 registrations check out their profiles<br></ld>
+              <li class="list-time">05:40pm</li>
+            
+            <li class="list-head">3 Claims are waiting<br></li>
+              <ld class="list-text mar-top">Please contribute them, they are Waiting for your help<br></ld>
+              <li class="list-time">05:40pm</li>
+            
+            <li class="list-head">102 New Members<br></li>
+              <ld class="list-text mar-top">We have 102 registrations check out their profiles<br></ld>
+              <li class="list-time">05:40pm</li>
+            
+          </ul>
+        </div>
+      </div>
+      </main>
+    </div>
+  </body>
 </html>
