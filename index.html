@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;600;700&display=swap" rel="stylesheet">
     
     <title>Test - 3</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
   </head>
   <body>
     <div class="container">
@@ -144,11 +145,12 @@
             </div>
           </div>
         </aside>
+        <div class="pages-back"></div>
         <div class="pages-names">
           <ul class="pages-list">
-            <li class="dash"><strong><ion-icon name="home"></ion-icon> dashboard</strong></li>
+            <li class="dash"><ion-icon name="home"></ion-icon> dashboard</li>
             <li class="pages-name">new claims</li>
-            <li  class="pages-name">completed claims</li>
+            <li class="pages-name">completed claims</li>
             <li class="pages-name">past claims</li>
             <li class="pages-name">member</li>
             <li class="my pages-name">my claims</li>
@@ -224,7 +226,7 @@
           <div class="pfl">
             <img src="images/dash-img-1.jpg" alt="person" class="dash-img">
             <div class="oth-pfl-text">
-              <span>amelia kimani</span>
+              <span class="pfl-name">amelia kimani</span>
               <div class="pfl-sml-text mar-top">
                 <div class="sml-text">
                   <img width="14" height="14" src="https://img.icons8.com/windows/32/calendar.png" alt="calendar" class="pfl-icon"/>
@@ -248,7 +250,7 @@
           <div class="pfl">
             <img src="images/dash-img-2.jpg" alt="person" class="dash-img">
             <div class="oth-pfl-text">
-              <span>genevieve juma</span>
+              <span class="pfl-name">genevieve juma</span>
               <div class="pfl-sml-text mar-top">
                 <div class="sml-text">
                 <img width="14" height="14" src="https://img.icons8.com/windows/32/calendar.png" alt="calendar" class="pfl-icon"/>
@@ -272,7 +274,7 @@
           <div class="pfl">
             <img src="images/dash-img-3.jpg" alt="person" class="dash-img">
             <div class="oth-pfl-text">
-              <span>theodore wachira</span>
+              <span class="pfl-name">theodore wachira</span>
               <div class="pfl-sml-text mar-top">
                 <div class="sml-text">
                 <img width="14" height="14" src="https://img.icons8.com/windows/32/calendar.png" alt="calendar" class="pfl-icon"/>
@@ -295,45 +297,214 @@
           </div>
         </div>
         </div>
+  
         <div class="act">
           <span class="activity">Activity</span>
           <div class="act-hor-line mar-top"></div>
           <div class="act-hor-line-2"></div>
-          <div class="act-ver-line">
-            <div class="act-circle-1 act-circles">
-              <div class="act-sml-circle-1 act-sml-circle"></div>
-            </div>
-            <div class="act-circle-2 act-circles">
-              <div class="act-sml-circle-2 act-sml-circle"></div>
-            </div>
-            <div class="act-circle-3 act-circles">
-              <div class="act-sml-circle-3 act-sml-circle"></div>
-            </div>
-            <div class="act-circle-4 act-circles">
-              <div class="act-sml-circle-1 act-sml-circle"></div>
-            </div>
-          </div>
-          <ul class="act-list">
-            <li class="list-head">Claimed $2000<br></li>
-              <ld class="list-text mar-top">23 members are got claimed in washington DC <br></ld>
-              <li class="list-time">05:40pm</li>
-           
-            <li class="list-head">102 New Members<br></li>
-              <ld class="list-text mar-top">We have 102 registrations check out their profiles<br></ld>
-              <li class="list-time">05:40pm</li>
+          
+           <div class="act-scroll">
+             <div class="act-ver-line"></div>
+             <ul class="act-list">
+               <li class="list-head">
+                 <div class="act-circle-1 act-circle">
+                   <div class="act-sml-circle-1 act-sml-circle"></div>
+                 </div>Claimed $2000</li>
+               <ld class="list-text mar-top">23 members are got claimed in washington DC </ld>
+               <li class="list-time">05:40pm</li>
+                
+             <li class="list-head">
+               <div class="act-circle-2 act-circle">
+                 <div class="act-sml-circle-2 act-sml-circle"></div>
+               </div>102 New Members</li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+              
+             <li class="list-head">
+               <div class="act-circle-3 act-circle">
+                 <div class="act-sml-circle-3 act-sml-circle"></div>
+               </div>3 Claims are waiting</li>
+               <ld class="list-text mar-top">Please contribute them, they are Waiting for your help</ld>
+               <li class="list-time">05:40pm</li>
+              
+             <li class="list-head"><div class="act-circle-4 act-circle">
+               <div class="act-sml-circle-1 act-sml-circle"></div>
+             </div>102 New Members</li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-1 act-circle">
+               <div class="act-sml-circle-1 act-sml-circle"></div>
+             </div>Claimed $2000</li>
+               <ld class="list-text mar-top">23 members are got claimed in washington DC </ld>
+               <li class="list-time">05:40pm</li>
             
-            <li class="list-head">3 Claims are waiting<br></li>
-              <ld class="list-text mar-top">Please contribute them, they are Waiting for your help<br></ld>
-              <li class="list-time">05:40pm</li>
+             <li class="list-head"><div class="act-circle-2 act-circle">
+               <div class="act-sml-circle-2 act-sml-circle"></div>
+             </div>102 New Members</li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-3 act-circle">
+               <div class="act-sml-circle-3 act-sml-circle"></div>
+             </div>3 Claims are waiting</li>
+               <ld class="list-text mar-top">Please contribute them, they are Waiting for your help</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-4 act-circle">
+               <div class="act-sml-circle-1 act-sml-circle"></div>
+             </div>102 New Members<br></li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-1 act-circle">
+               <div class="act-sml-circle-1 act-sml-circle"></div>
+             </div>Claimed $2000</li>
+               <ld class="list-text mar-top">23 members are got claimed in washington DC </ld>
+               <li class="list-time">05:40pm</li>
             
-            <li class="list-head">102 New Members<br></li>
-              <ld class="list-text mar-top">We have 102 registrations check out their profiles<br></ld>
-              <li class="list-time">05:40pm</li>
+             <li class="list-head"><div class="act-circle-2 act-circle">
+               <div class="act-sml-circle-2 act-sml-circle"></div>
+             </div>102 New Members</li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-3 act-circle">
+               <div class="act-sml-circle-3 act-sml-circle"></div>
+             </div>3 Claims are waiting</li>
+               <ld class="list-text mar-top">Please contribute them, they are Waiting for your help</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-4 act-circle">
+               <div class="act-sml-circle-1 act-sml-circle"></div>
+             </div>102 New Members<br></li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-1 act-circle">
+               <div class="act-sml-circle-1 act-sml-circle"></div>
+             </div>Claimed $2000</li>
+               <ld class="list-text mar-top">23 members are got claimed in washington DC </ld>
+               <li class="list-time">05:40pm</li>
             
-          </ul>
+             <li class="list-head"><div class="act-circle-2 act-circle">
+               <div class="act-sml-circle-2 act-sml-circle"></div>
+             </div>102 New Members</li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-3 act-circle">
+               <div class="act-sml-circle-3 act-sml-circle"></div>
+             </div>3 Claims are waiting</li>
+               <ld class="list-text mar-top">Please contribute them, they are Waiting for your help</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-4 act-circle">
+               <div class="act-sml-circle-1 act-sml-circle"></div>
+             </div>102 New Members</li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-1 act-circle">
+               <div class="act-sml-circle-1 act-sml-circle"></div>
+             </div>Claimed $2000</li>
+               <ld class="list-text mar-top">23 members are got claimed in washington DC </ld>
+               <li class="list-time">05:40pm</li>
+            
+             <li class="list-head"><div class="act-circle-2 act-circle">
+               <div class="act-sml-circle-2 act-sml-circle"></div>
+             </div>102 New Members<br></li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-3 act-circle">
+               <div class="act-sml-circle-3 act-sml-circle"></div>
+             </div>3 Claims are waiting<br></li>
+               <ld class="list-text mar-top">Please contribute them, they are Waiting for your help</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-4 act-circle">
+               <div class="act-sml-circle-1 act-sml-circle"></div>
+             </div>102 New Members<br></li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-1 act-circle">
+               <div class="act-sml-circle-1 act-sml-circle"></div>
+             </div>Claimed $2000<br></li>
+               <ld class="list-text mar-top">23 members are got claimed in washington DC </ld>
+               <li class="list-time">05:40pm</li>
+            
+             <li class="list-head"><div class="act-circle-2 act-circle">
+               <div class="act-sml-circle-2 act-sml-circle"></div>
+             </div>102 New Members<br></li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-3 act-circle">
+               <div class="act-sml-circle-3 act-sml-circle"></div>
+             </div>3 Claims are waiting<br></li>
+               <ld class="list-text mar-top">Please contribute them, they are Waiting for your help</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-4 act-circle">
+               <div class="act-sml-circle-1 act-sml-circle"></div>
+             </div>102 New Members<br></li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-1 act-circle">
+               <div class="act-sml-circle-1 act-sml-circle"></div>
+             </div>Claimed $2000<br></li>
+               <ld class="list-text mar-top">23 members are got claimed in washington DC </ld>
+               <li class="list-time">05:40pm</li>
+            
+             <li class="list-head"><div class="act-circle-2 act-circle">
+               <div class="act-sml-circle-2 act-sml-circle"></div>
+             </div>102 New Members<br></li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-3 act-circle">
+               <div class="act-sml-circle-3 act-sml-circle"></div>
+             </div>3 Claims are waiting<br></li>
+               <ld class="list-text mar-top">Please contribute them, they are Waiting for your help</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-4 act-circle">
+               <div class="act-sml-circle-1 act-sml-circle"></div>
+             </div>102 New Members<br></li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-1 act-circle">
+               <div class="act-sml-circle-1 act-sml-circle"></div>
+             </div>Claimed $2000<br></li>
+               <ld class="list-text mar-top">23 members are got claimed in washington DC </ld>
+               <li class="list-time">05:40pm</li>
+            
+             <li class="list-head"><div class="act-circle-2 act-circle">
+               <div class="act-sml-circle-2 act-sml-circle"></div>
+             </div>102 New Members<br></li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-3 act-circle">
+               <div class="act-sml-circle-3 act-sml-circle"></div>
+             </div>3 Claims are waiting<br></li>
+               <ld class="list-text mar-top">Please contribute them, they are Waiting for your help</ld>
+               <li class="list-time">05:40pm</li>
+
+             <li class="list-head"><div class="act-circle-4 act-circle">
+               <div class="act-sml-circle-1 act-sml-circle"></div>
+             </div>102 New Members</li>
+               <ld class="list-text mar-top">We have 102 registrations &nbsp; check out their profiles</ld>
+               <li class="list-time">05:40pm</li>
+             </ul>
+           </div>
         </div>
       </div>
       </main>
     </div>
-  </body>
-</html>
+  </body> 
+</html> 
